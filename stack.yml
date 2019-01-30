@@ -1,0 +1,11 @@
+# start cassandra and open a CQL console
+version: '3.1'
+
+services:
+
+  cassandra:
+    image: cassandra
+    restart: always
+    container_name: some-cassandra
+    volumes:
+      - ./cassandra-file-volume/:/data/files
