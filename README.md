@@ -2,7 +2,7 @@
 
 ## Start the cassandra db
 
-Clone the github repository into the local file system and go into the created folder. 
+Clone the github repository into the local file system ( git clone `https://github.com/sturc/cassandrademodb.git` ) and go into the created folder. 
 Execute `docker-compose -f stack.yml up` to start the database
 
 ## Initialize the database 
