@@ -8,7 +8,11 @@ Execute `docker-compose -f stack.yml up` to start the database
 ## Initialize the database 
 
 To create the customer table execute the following command while cassandra db is running: 
-`docker exec some-cassandra cqlsh -f '/data/files/createcustomertable.cql'``
+`docker exec some-cassandra cqlsh -f '/data/files/createcustomertable.cql'`
+
+To create the orders table execute the following command whild cassandra db is running:
+`docker exec some-cassandra cqlsh -f '/data/files/createordertable.cql'`
+
 
 ## Open a cqlsh to work with the database
 
